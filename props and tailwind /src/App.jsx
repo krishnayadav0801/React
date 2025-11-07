@@ -1,16 +1,17 @@
-
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './index.css'
-
+import './App.css'
+import Card from './component/Card.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
+  
 
   return (
     <>
-     <h1 className="">krishna is here</h1>
+    <Card userName='krishna' details= 'Hello Everyone' />
+    <Card userName='rahul' details='love you all' />
     </>
   )
 }
